@@ -13,10 +13,25 @@ namespace WinAsynchDelegate
     
     public partial class Form1 : Form
     {
+        bool Cancel;
         private void TimeConsumingMethod(int seconds)
         {
-            for (int j = 1; j <= seconds; j++)
+            for (int j = 1; j <= seconds; j++) 
+            {
+                SetProgress((int)(j * 100) / seconds);
                 System.Threading.Thread.Sleep(1000);
+                if (Cancel)
+                    break;
+            }   
+            if (Cancel)
+            {
+                System.Windows.Forms.MessageBox.Show("Cancelled");
+                Cancel = false;
+            }
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("Complete");
+            }
         }
         private delegate void TimeConsumingMethodDelegate(int seconds);
         public delegate void SetProgressDelegate(int val);
@@ -46,6 +61,17 @@ namespace WinAsynchDelegate
             }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TimeConsumingMethodDelegate del = new
+                TimeConsumingMethodDelegate(TimeConsumingMethod);
+            del.BeginInvoke(int.Parse(textBox1.Text), null, null);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Cancel = true;
+        }
     }
 
 }
