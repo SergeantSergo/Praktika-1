@@ -59,5 +59,10 @@ namespace WinAsynchMethod
         {
             MessageBox.Show("Работа идет полным ходом");
         }
+
+        private void txtA_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
