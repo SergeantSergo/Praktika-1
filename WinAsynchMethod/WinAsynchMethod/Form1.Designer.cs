@@ -1,5 +1,5 @@
 ﻿
-namespace WinAsynchMethod2
+namespace WinAsynchMethod
 {
     partial class Form1
     {

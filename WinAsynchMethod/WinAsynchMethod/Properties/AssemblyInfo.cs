@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных со сборкой.
-[assembly: AssemblyTitle("PDF Reader")]
+[assembly: AssemblyTitle("WinAsynchMethod")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PDF Reader")]
+[assembly: AssemblyProduct("WinAsynchMethod")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("46314fa1-1830-47b0-ac3e-920a240a40d5")]
+[assembly: Guid("4ee51488-1564-44bf-be12-91124afcec12")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
