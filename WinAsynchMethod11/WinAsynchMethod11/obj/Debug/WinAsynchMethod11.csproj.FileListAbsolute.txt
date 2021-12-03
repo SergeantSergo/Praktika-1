@@ -1,0 +1,10 @@
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod11\WinAsynchMethod11\bin\Debug\WinAsynchMethod11.exe.config
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod11\WinAsynchMethod11\bin\Debug\WinAsynchMethod11.exe
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod11\WinAsynchMethod11\bin\Debug\WinAsynchMethod11.pdb
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod11\WinAsynchMethod11\obj\Debug\WinAsynchMethod11.csproj.AssemblyReference.cache
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod11\WinAsynchMethod11\obj\Debug\WinAsynchMethod11.Form1.resources
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod11\WinAsynchMethod11\obj\Debug\WinAsynchMethod11.Properties.Resources.resources
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod11\WinAsynchMethod11\obj\Debug\WinAsynchMethod11.csproj.GenerateResource.cache
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod11\WinAsynchMethod11\obj\Debug\WinAsynchMethod11.csproj.CoreCompileInputs.cache
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod11\WinAsynchMethod11\obj\Debug\WinAsynchMethod11.exe
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod11\WinAsynchMethod11\obj\Debug\WinAsynchMethod11.pdb
