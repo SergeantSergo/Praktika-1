@@ -8,3 +8,13 @@ C:\Users\Студент\Desktop\Реп мат2\WinAsynchMethod\WinAsynchMethod\o
 C:\Users\Студент\Desktop\Реп мат2\WinAsynchMethod\WinAsynchMethod\obj\Debug\WinAsynchMethod.csproj.CoreCompileInputs.cache
 C:\Users\Студент\Desktop\Реп мат2\WinAsynchMethod\WinAsynchMethod\obj\Debug\WinAsynchMethod.exe
 C:\Users\Студент\Desktop\Реп мат2\WinAsynchMethod\WinAsynchMethod\obj\Debug\WinAsynchMethod.pdb
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod\WinAsynchMethod\bin\Debug\WinAsynchMethod.exe.config
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod\WinAsynchMethod\bin\Debug\WinAsynchMethod.exe
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod\WinAsynchMethod\bin\Debug\WinAsynchMethod.pdb
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod\WinAsynchMethod\obj\Debug\WinAsynchMethod.csproj.AssemblyReference.cache
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod\WinAsynchMethod\obj\Debug\WinAsynchMethod.Form1.resources
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod\WinAsynchMethod\obj\Debug\WinAsynchMethod.Properties.Resources.resources
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod\WinAsynchMethod\obj\Debug\WinAsynchMethod.csproj.GenerateResource.cache
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod\WinAsynchMethod\obj\Debug\WinAsynchMethod.csproj.CoreCompileInputs.cache
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod\WinAsynchMethod\obj\Debug\WinAsynchMethod.exe
+C:\Users\Студент\Desktop\Репозиторий Матвеев\WinAsynchMethod\WinAsynchMethod\obj\Debug\WinAsynchMethod.pdb
