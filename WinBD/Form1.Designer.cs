@@ -1,5 +1,5 @@
 ﻿
-namespace PDF_Reader
+namespace WinBD
 {
     partial class Form1
     {
