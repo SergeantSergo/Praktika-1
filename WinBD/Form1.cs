@@ -21,5 +21,13 @@ namespace WinBD
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            System.Data.OleDb.OleDbDataReader myReader;
+            string CustomerString;
+            oleDbConnection1.Open();
+            myReader = oleDbCommand1.ExecuteReader();
+        }
     }
 }
