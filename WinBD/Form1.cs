@@ -28,6 +28,14 @@ namespace WinBD
             string CustomerString;
             oleDbConnection1.Open();
             myReader = oleDbCommand1.ExecuteReader();
+            while (myReader.Read())
+            {
+                CustomerString = myReader[1].ToString() + " " +
+                    myReader[2].ToString();
+                listBox1.Items.Add(CustomerString);
+            }
+            myReader.Close();
+            oleDbConnection1.Close();
         }
     }
 }
