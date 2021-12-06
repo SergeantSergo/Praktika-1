@@ -8,10 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Praktika.Properties
+
+namespace WinBD.Properties
 {
-
-
     /// <summary>
     ///   Класс ресурсов со строгим типом для поиска локализованных строк и пр.
     /// </summary>
@@ -44,7 +43,7 @@ namespace Praktika.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Praktika.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WinBD.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

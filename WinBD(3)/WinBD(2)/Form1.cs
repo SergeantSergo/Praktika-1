@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Praktika
+namespace WinBD
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
+        }
+        //
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -26,17 +31,16 @@ namespace Praktika
             while (myReader.Read())
             {
                 CustomerString = myReader[1].ToString() + " " +
-                myReader[2].ToString();
+                    myReader[2].ToString();
                 listBox1.Items.Add(CustomerString);
             }
             myReader.Close();
             oleDbConnection1.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void oleDbConnection1_InfoMessage(object sender, System.Data.OleDb.OleDbInfoMessageEventArgs e)
         {
-            Form2 Exercise2 = new Form2();
-            Exercise2.Show();
+
         }
     }
 }
