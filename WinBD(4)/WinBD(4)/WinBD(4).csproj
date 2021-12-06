@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{40F6F1E5-B4E9-48F9-8BB4-D74396A3373A}</ProjectGuid>
+    <ProjectGuid>{3CB3A07A-04E4-4EFA-95AF-3540833C3304}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WinBD</RootNamespace>
-    <AssemblyName>WinBD</AssemblyName>
+    <RootNamespace>WinBD_4_</RootNamespace>
+    <AssemblyName>WinBD%284%29</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,14 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RBProductDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>RBProductDataSet.xsd</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -80,25 +72,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="RBProductDataSet.xsc">
-      <DependentUpon>RBProductDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="RBProductDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>RBProductDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="RBProductDataSet.xss">
-      <DependentUpon>RBProductDataSet.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="RBProduct.mdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

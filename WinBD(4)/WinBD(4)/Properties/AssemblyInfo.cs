@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных со сборкой.
-[assembly: AssemblyTitle("WinBD")]
+[assembly: AssemblyTitle("WinBD(4)")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WinBD")]
+[assembly: AssemblyProduct("WinBD(4)")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("40f6f1e5-b4e9-48f9-8bb4-d74396a3373a")]
+[assembly: Guid("3cb3a07a-04e4-4efa-95af-3540833c3304")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

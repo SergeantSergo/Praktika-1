@@ -8,9 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
-namespace WinBD.Properties
+namespace WinBD_4_.Properties
 {
+
+
     /// <summary>
     ///   Класс ресурсов со строгим типом для поиска локализованных строк и пр.
     /// </summary>
@@ -43,7 +44,7 @@ namespace WinBD.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WinBD.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WinBD_4_.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
