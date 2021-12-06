@@ -20,3 +20,16 @@ C:\Users\Sergo\Desktop\git hub\WinBD(2)\obj\Debug\WinBD.csproj.GenerateResource.
 C:\Users\Sergo\Desktop\git hub\WinBD(2)\obj\Debug\WinBD.csproj.CoreCompileInputs.cache
 C:\Users\Sergo\Desktop\git hub\WinBD(2)\obj\Debug\WinBD.exe
 C:\Users\Sergo\Desktop\git hub\WinBD(2)\obj\Debug\WinBD.pdb
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(2)\obj\Debug\WinBD.csproj.AssemblyReference.cache
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(2)\obj\Debug\WinBD.csproj.SuggestedBindingRedirects.cache
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(2)\obj\Debug\WinBD.Form1.resources
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(2)\obj\Debug\WinBD.Form2.resources
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(2)\obj\Debug\WinBD.Properties.Resources.resources
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(2)\obj\Debug\WinBD.csproj.GenerateResource.cache
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(2)\obj\Debug\WinBD.csproj.CoreCompileInputs.cache
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(2)\obj\Debug\WinBD.exe
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(2)\obj\Debug\WinBD.pdb
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(2)\bin\Debug\RBProduct.mdb
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(2)\bin\Debug\WinBD.exe.config
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(2)\bin\Debug\WinBD.exe
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(2)\bin\Debug\WinBD.pdb

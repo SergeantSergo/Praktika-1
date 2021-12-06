@@ -19,12 +19,12 @@ namespace WinBD
 
         private void button2_Click(object sender, EventArgs e)
         {
-            oleDbDataAdapter1.Fill(dataSet1);
+            oleDbDataAdapter1.Fill(rbProductDataSet1);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            oleDbDataAdapter1.Update(dataSet1);
+            oleDbDataAdapter1.Update(rbProductDataSet1);
         }
     }
 }
