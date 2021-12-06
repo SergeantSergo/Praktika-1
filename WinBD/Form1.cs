@@ -37,5 +37,10 @@ namespace WinBD
             myReader.Close();
             oleDbConnection1.Close();
         }
+
+        private void oleDbConnection1_InfoMessage(object sender, System.Data.OleDb.OleDbInfoMessageEventArgs e)
+        {
+
+        }
     }
 }
