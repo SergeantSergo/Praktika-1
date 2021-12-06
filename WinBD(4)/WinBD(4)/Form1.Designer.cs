@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Nextbutton = new System.Windows.Forms.Button();
             this.Previousbutton = new System.Windows.Forms.Button();
             this.SectiontextBox = new System.Windows.Forms.TextBox();
@@ -37,16 +36,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.productDataSet2 = new WinBD_4_.ProductDataSet();
-            this.oleDbSelectCommand3 = new System.Data.OleDb.OleDbCommand();
-            this.oleDbInsertCommand3 = new System.Data.OleDb.OleDbCommand();
-            this.oleDbUpdateCommand3 = new System.Data.OleDb.OleDbCommand();
-            this.oleDbDeleteCommand3 = new System.Data.OleDb.OleDbCommand();
-            this.oleDbDataAdapter3 = new System.Data.OleDb.OleDbDataAdapter();
-            this.oleDbConnection2 = new System.Data.OleDb.OleDbConnection();
             this.сотрудникиTableAdapter1 = new WinBD_4_.ProductDataSetTableAdapters.СотрудникиTableAdapter();
             this.productDataSet1 = new WinBD_4_.ProductDataSet();
-            ((System.ComponentModel.ISupportInitialize)(this.productDataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -126,73 +117,6 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Фамилия";
             // 
-            // productDataSet2
-            // 
-            this.productDataSet2.DataSetName = "ProductDataSet";
-            this.productDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // oleDbSelectCommand3
-            // 
-            this.oleDbSelectCommand3.CommandText = "SELECT * \r\nFROM     Заказчики";
-            this.oleDbSelectCommand3.Connection = this.oleDbConnection2;
-            // 
-            // oleDbInsertCommand3
-            // 
-            this.oleDbInsertCommand3.CommandText = "INSERT INTO `Заказчики` (`Имя`, `Фамилия`, `Город`) VALUES (?, ?, ?)";
-            this.oleDbInsertCommand3.Connection = this.oleDbConnection2;
-            this.oleDbInsertCommand3.Parameters.AddRange(new System.Data.OleDb.OleDbParameter[] {
-            new System.Data.OleDb.OleDbParameter("Имя", System.Data.OleDb.OleDbType.VarWChar, 0, "Имя"),
-            new System.Data.OleDb.OleDbParameter("Фамилия", System.Data.OleDb.OleDbType.VarWChar, 0, "Фамилия"),
-            new System.Data.OleDb.OleDbParameter("Город", System.Data.OleDb.OleDbType.VarWChar, 0, "Город")});
-            // 
-            // oleDbUpdateCommand3
-            // 
-            this.oleDbUpdateCommand3.CommandText = resources.GetString("oleDbUpdateCommand3.CommandText");
-            this.oleDbUpdateCommand3.Connection = this.oleDbConnection2;
-            this.oleDbUpdateCommand3.Parameters.AddRange(new System.Data.OleDb.OleDbParameter[] {
-            new System.Data.OleDb.OleDbParameter("Имя", System.Data.OleDb.OleDbType.VarWChar, 0, "Имя"),
-            new System.Data.OleDb.OleDbParameter("Фамилия", System.Data.OleDb.OleDbType.VarWChar, 0, "Фамилия"),
-            new System.Data.OleDb.OleDbParameter("Город", System.Data.OleDb.OleDbType.VarWChar, 0, "Город"),
-            new System.Data.OleDb.OleDbParameter("Original_Код", System.Data.OleDb.OleDbType.Integer, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Код", System.Data.DataRowVersion.Original, null),
-            new System.Data.OleDb.OleDbParameter("IsNull_Имя", System.Data.OleDb.OleDbType.Integer, 0, System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Имя", System.Data.DataRowVersion.Original, true, null),
-            new System.Data.OleDb.OleDbParameter("Original_Имя", System.Data.OleDb.OleDbType.VarWChar, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Имя", System.Data.DataRowVersion.Original, null),
-            new System.Data.OleDb.OleDbParameter("IsNull_Фамилия", System.Data.OleDb.OleDbType.Integer, 0, System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Фамилия", System.Data.DataRowVersion.Original, true, null),
-            new System.Data.OleDb.OleDbParameter("Original_Фамилия", System.Data.OleDb.OleDbType.VarWChar, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Фамилия", System.Data.DataRowVersion.Original, null),
-            new System.Data.OleDb.OleDbParameter("IsNull_Город", System.Data.OleDb.OleDbType.Integer, 0, System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Город", System.Data.DataRowVersion.Original, true, null),
-            new System.Data.OleDb.OleDbParameter("Original_Город", System.Data.OleDb.OleDbType.VarWChar, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Город", System.Data.DataRowVersion.Original, null)});
-            // 
-            // oleDbDeleteCommand3
-            // 
-            this.oleDbDeleteCommand3.CommandText = "DELETE FROM `Заказчики` WHERE ((`Код` = ?) AND ((? = 1 AND `Имя` IS NULL) OR (`Им" +
-    "я` = ?)) AND ((? = 1 AND `Фамилия` IS NULL) OR (`Фамилия` = ?)) AND ((? = 1 AND " +
-    "`Город` IS NULL) OR (`Город` = ?)))";
-            this.oleDbDeleteCommand3.Connection = this.oleDbConnection2;
-            this.oleDbDeleteCommand3.Parameters.AddRange(new System.Data.OleDb.OleDbParameter[] {
-            new System.Data.OleDb.OleDbParameter("Original_Код", System.Data.OleDb.OleDbType.Integer, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Код", System.Data.DataRowVersion.Original, null),
-            new System.Data.OleDb.OleDbParameter("IsNull_Имя", System.Data.OleDb.OleDbType.Integer, 0, System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Имя", System.Data.DataRowVersion.Original, true, null),
-            new System.Data.OleDb.OleDbParameter("Original_Имя", System.Data.OleDb.OleDbType.VarWChar, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Имя", System.Data.DataRowVersion.Original, null),
-            new System.Data.OleDb.OleDbParameter("IsNull_Фамилия", System.Data.OleDb.OleDbType.Integer, 0, System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Фамилия", System.Data.DataRowVersion.Original, true, null),
-            new System.Data.OleDb.OleDbParameter("Original_Фамилия", System.Data.OleDb.OleDbType.VarWChar, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Фамилия", System.Data.DataRowVersion.Original, null),
-            new System.Data.OleDb.OleDbParameter("IsNull_Город", System.Data.OleDb.OleDbType.Integer, 0, System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Город", System.Data.DataRowVersion.Original, true, null),
-            new System.Data.OleDb.OleDbParameter("Original_Город", System.Data.OleDb.OleDbType.VarWChar, 0, System.Data.ParameterDirection.Input, false, ((byte)(0)), ((byte)(0)), "Город", System.Data.DataRowVersion.Original, null)});
-            // 
-            // oleDbDataAdapter3
-            // 
-            this.oleDbDataAdapter3.DeleteCommand = this.oleDbDeleteCommand3;
-            this.oleDbDataAdapter3.InsertCommand = this.oleDbInsertCommand3;
-            this.oleDbDataAdapter3.SelectCommand = this.oleDbSelectCommand3;
-            this.oleDbDataAdapter3.TableMappings.AddRange(new System.Data.Common.DataTableMapping[] {
-            new System.Data.Common.DataTableMapping("Table", "Заказчики", new System.Data.Common.DataColumnMapping[] {
-                        new System.Data.Common.DataColumnMapping("Код", "Код"),
-                        new System.Data.Common.DataColumnMapping("Имя", "Имя"),
-                        new System.Data.Common.DataColumnMapping("Фамилия", "Фамилия"),
-                        new System.Data.Common.DataColumnMapping("Город", "Город")})});
-            this.oleDbDataAdapter3.UpdateCommand = this.oleDbUpdateCommand3;
-            // 
-            // oleDbConnection2
-            // 
-            this.oleDbConnection2.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\Product.mdb";
-            // 
             // сотрудникиTableAdapter1
             // 
             this.сотрудникиTableAdapter1.ClearBeforeFill = true;
@@ -218,7 +142,6 @@
             this.Name = "Form1";
             this.Text = "ч";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.productDataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.productDataSet1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -235,13 +158,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private ProductDataSet productDataSet2;
-        private System.Data.OleDb.OleDbCommand oleDbSelectCommand3;
-        private System.Data.OleDb.OleDbConnection oleDbConnection2;
-        private System.Data.OleDb.OleDbCommand oleDbInsertCommand3;
-        private System.Data.OleDb.OleDbCommand oleDbUpdateCommand3;
-        private System.Data.OleDb.OleDbCommand oleDbDeleteCommand3;
-        private System.Data.OleDb.OleDbDataAdapter oleDbDataAdapter3;
         private ProductDataSetTableAdapters.СотрудникиTableAdapter сотрудникиTableAdapter1;
         private ProductDataSet productDataSet1;
     }
