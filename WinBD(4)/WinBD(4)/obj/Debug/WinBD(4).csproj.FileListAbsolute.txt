@@ -1,0 +1,12 @@
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(4)\WinBD(4)\bin\Debug\Product.mdb
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(4)\WinBD(4)\bin\Debug\WinBD(4).exe.config
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(4)\WinBD(4)\bin\Debug\WinBD(4).exe
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(4)\WinBD(4)\bin\Debug\WinBD(4).pdb
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(4)\WinBD(4)\obj\Debug\WinBD(4).csproj.AssemblyReference.cache
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(4)\WinBD(4)\obj\Debug\WinBD(4).csproj.SuggestedBindingRedirects.cache
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(4)\WinBD(4)\obj\Debug\WinBD_4_.Form1.resources
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(4)\WinBD(4)\obj\Debug\WinBD_4_.Properties.Resources.resources
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(4)\WinBD(4)\obj\Debug\WinBD(4).csproj.GenerateResource.cache
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(4)\WinBD(4)\obj\Debug\WinBD(4).csproj.CoreCompileInputs.cache
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(4)\WinBD(4)\obj\Debug\WinBD(4).exe
+C:\Users\UniHow\Desktop\PrAVSDGARE\WinBD(4)\WinBD(4)\obj\Debug\WinBD(4).pdb
